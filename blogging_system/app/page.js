@@ -1,10 +1,23 @@
+
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      lorem200
+    <div>
       
-    </main>
+      this is a very good thing for us to do and also to imporve our knowleged and technical knwohow
+
+      <div>
+
+        how are you doing this is crazy cause things are going tough
+        how are you doing this is crazy cause things are going tough
+        how are you doing this is crazy cause things are going tough
+        how are you doing this is crazy cause things are going tough
+        how are you doing this is crazy cause things are going tough
+        how are you doing this is crazy cause things are going tough
+      </div>
+      
+    </div>
+
   );
 }
