@@ -15,9 +15,9 @@ const Feautures = () => {
               </div>
               <div className={styles.textContainer}>
                 <h1 className={styles.postTitle}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, consequatur!</h1>
-                <p className={styles.postdescription}>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, veniam.</p>
+                <p className={styles.postdescription}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi excepturi maxime repellendus aliquid rerum! Accusantium similique voluptatibus aperiam sit. Qui perspiciatis esse, ratione reiciendis facilis rerum tempora debitis mollitia modi quod autem dicta, voluptatibus quibusdam magnam dolorum quasi consequuntur placeat aspernatur dolores non exercitationem. Dolorum doloremque quod dolores provident et!</p>
                   
-              <button>Read more</button>
+              <button className={styles.button}>Read more</button>
               </div>
           </div>
           

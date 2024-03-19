@@ -13,7 +13,9 @@
 .post {
   margin-top: 60px;
   display: flex;
-  align-items: center;
+  padding: 10px;
+  align-items: flex-start;
+  justify-content: center;
   gap: 50px;
 }
 
@@ -22,6 +24,34 @@
 }
 .imgContainer {
   flex: 1;
-  height: 500px;
+  height: 300px;
   background: gray;
+  width: 300px;
+}
+
+.postdescription {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  color: var(--softTextColor);
+}
+
+.textContainer {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.postTitle {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.button {
+  padding: 16px 20px;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  background-color: var(--softTextColor);
 }
