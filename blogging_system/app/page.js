@@ -5,6 +5,7 @@ import Image from "next/image";
 import styles from "./main.module.css"
 import CardList from "@/components/CardList/CardList";
 import Menu from "@/components/Menu/Menu";
+import Pagination from "@/components/Pagination/Pagination";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <div className={styles.right_content}>
 
         <CardList />
+          <Pagination/>
         </div>
         < div className={styles.left_content}>
           <Menu/>

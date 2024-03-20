@@ -14,8 +14,6 @@ const CardList = () => {
             <Card />
             <Card />
           </div>
-          
-          Pagination here
     </div>
   )
 }
