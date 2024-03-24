@@ -1,36 +1,35 @@
-import React from "react"
-import { Inter } from "next/font/google";
+import Navbar from "@/components/navbar/Navbar";
 import "./globals.css";
-import Navbar from "@/components/Navbar/Navbar";
-import Footer from "@/components/Footer/Footer";
-import  ThemeProvider  from "@/src/providers/ThemeProvider";
-import { ThemeContextProvider } from "@/src/context/ThemeContext";
+import { Inter } from "next/font/google";
+import Footer from "@/components/footer/Footer";
+import { ThemeContextProvider } from "../../blogging_system/src/context/ThemeContext";
+import ThemeProvider from "../../blogging_system/src/providers/ThemeProvider";
+import AuthProvider from "../../blogging_system/src/providers/AuthProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "A blogging System in Nextjs",
-  description: "Created by Romaric Lonfonyuy",
+  title: "Create your blogs here",
+  description: "The best blog app!",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ThemeContextProvider>
-          <ThemeProvider>
-
-        <div className="container">
-          <div className="wrapper">
-<Navbar/>
-            {children}
-           <Footer/>
-          </div>
-        </div> 
-          </ThemeProvider>
-          
-
-        </ThemeContextProvider>
+        <AuthProvider>
+          <ThemeContextProvider>
+            <ThemeProvider>
+              <div className="container">
+                <div className="wrapper">
+                  <Navbar />
+                  {children}
+                  <Footer />
+                </div>
+              </div>
+            </ThemeProvider>
+          </ThemeContextProvider>
+        </AuthProvider>
       </body>
     </html>
   );
