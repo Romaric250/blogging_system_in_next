@@ -1,7 +1,7 @@
-import Navbar from "@/components/navbar/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 import "./globals.css";
 import { Inter } from "next/font/google";
-import Footer from "@/components/footer/Footer";
+import Footer from "../components/Footer/Footer";
 import { ThemeContextProvider } from "../../blogging_system/src/context/ThemeContext";
 import ThemeProvider from "../../blogging_system/src/providers/ThemeProvider";
 import AuthProvider from "../../blogging_system/src/providers/AuthProvider";
