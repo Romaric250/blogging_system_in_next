@@ -11,9 +11,9 @@ const NavLinks = () => {
     return (
         <>
                 <Link href="/">Home</Link>
-                <Link href="/">About</Link>
+                <Link href="/about">About</Link>
                 <Link href="/">Contact</Link>
-                <Link href="/">Docs</Link>
+                <Link href="/docs">Docs</Link>
                 <AuthLinks/>
          <ThemeToggle/>
         </>
@@ -27,7 +27,7 @@ const Navbar = () => {
         
             
             <div className={styles.logo}>
-                logo here
+                CRP
             </div>
             
             <div className={styles.links}>

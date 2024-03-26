@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './about.module.css';
+import Image from "next/image"
 import { Linkedin, Github, Mail } from 'lucide-react'; // Import the icons
 
 const AboutPage = () => {
@@ -8,7 +9,7 @@ const AboutPage = () => {
 
             <div className={styles.main_container}>
                 <div className={styles.image}>
-                    image
+                    <Image src="/romaric.jpg" alt="romaric" width={300} height={300}/>
                 </div>
 
                 <div className={styles.text}>

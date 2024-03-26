@@ -65,7 +65,7 @@
     margin-top: 20px;
     cursor: pointer;
     background-color:var(--bg);
-    color: #fff;
+    color: var(--softTextColor);
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -73,7 +73,8 @@
 }
 
 .contactForm button:hover {
-    background-color: var(--bg);
+    background-color:black;
+   
 }
 
 
