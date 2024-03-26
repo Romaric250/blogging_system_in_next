@@ -2,8 +2,8 @@ import React from "react";
 import styles from "./menu.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import MenuPosts from "../../components/menuPosts/MenuPosts";
-import MenuCategories from "../../components/menuCategories/MenuCategories";
+import MenuPosts from "../../components/MenuPosts/MenuPosts";
+import MenuCategories from "../MenuCategories/MenuCategories";
 
 const Menu = () => {
   return (

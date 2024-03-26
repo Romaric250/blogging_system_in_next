@@ -1,22 +1,17 @@
 .container {
+  width: 40px;
+  height: 20px;
+  border-radius: 50px;
+  cursor: pointer;
   display: flex;
-  margin-right: 10px;
-  height: 28px;
-  width: 80px;
-  border-radius: 40px;
-  background-color: black;
   align-items: center;
   justify-content: space-between;
   position: relative;
 }
-.container:hover {
-  cursor: pointer;
-}
 
-.ball {
-  width: 20px;
-  height: 20px;
+.ball{
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
-  background-color: white;
   position: absolute;
 }

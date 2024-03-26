@@ -68,8 +68,13 @@
   right: 0px;
   padding: 10px 20px;
   border: none;
-  background-color: #1a8917;
+  background-color: #93d32c;
   color: white;
   cursor: pointer;
   border-radius: 20px;
+}
+
+
+.textArea .write_input__Ifsfn {
+  font-size: 200px; 
 }
