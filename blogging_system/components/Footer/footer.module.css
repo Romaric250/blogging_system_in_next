@@ -22,10 +22,12 @@
 
 .logoText {
   font-size: 24px;
+  
 }
 
 .desc {
   font-weight: 300;
+  color:brown;
 }
 
 .icons {

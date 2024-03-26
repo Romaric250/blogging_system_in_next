@@ -10,12 +10,12 @@ import ThemeToggle from '../ThemeToggle/ThemeToggle';
 const NavLinks = () => {
     return (
         <>
-         <ThemeToggle/>
                 <Link href="/">Home</Link>
                 <Link href="/">About</Link>
                 <Link href="/">Contact</Link>
                 <Link href="/">Docs</Link>
                 <AuthLinks/>
+         <ThemeToggle/>
         </>
     )
 }
