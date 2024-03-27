@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./card.module.css"
 import Link from "next/link"
+import Image from "next/image"
 
 const Card = ({ key, item }) => {
   return (

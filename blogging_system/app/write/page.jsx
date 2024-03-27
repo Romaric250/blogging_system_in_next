@@ -16,6 +16,7 @@ import { app } from "../utils/firebase";
 import ReactQuill from "react-quill";
 
 const WritePage = () => {
+  const ReactQuill = dynamic(() => import("react-quill"), { ssr: false });
   const { status } = useSession();
   const router = useRouter();
 
@@ -91,6 +92,7 @@ const WritePage = () => {
 
     if (res.status === 200) {
       const data = await res.json();
+      console.log(data)
       router.push(`/posts/${data.slug}`);
     }
   };

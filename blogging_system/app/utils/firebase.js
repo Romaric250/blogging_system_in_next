@@ -4,13 +4,13 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
+const firebaseConfig = { 
   apiKey: process.env.FIREBASE,
-  authDomain: "blog-cddc2.firebaseapp.com",
-  projectId: "blog-cddc2",
-  storageBucket: "blog-cddc2.appspot.com",
-  messagingSenderId: "413696194974",
-  appId: "1:413696194974:web:bc0a551cd5558bdf0dbe8f"
+  authDomain: "blogging-system-96502.firebaseapp.com",
+  projectId: "blogging-system-96502",
+  storageBucket: "blogging-system-96502.appspot.com",
+  messagingSenderId: "189230224164",
+  appId: "1:189230224164:web:92dd580040d2af2211d9b1"
 };
 
 // Initialize Firebase
