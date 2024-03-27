@@ -1,7 +1,7 @@
-import React from 'react';
-import styles from './about.module.css';
+import React from "react";
+import styles from "./about.module.css";
 import Image from "next/image"
-import { Linkedin, Github, Mail } from 'lucide-react'; // Import the icons
+import { Linkedin, Github, Mail } from "lucide-react"; // Import the icons
 
 const AboutPage = () => {
     return (
