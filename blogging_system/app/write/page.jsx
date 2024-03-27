@@ -65,9 +65,9 @@ const WritePage = () => {
     return <div className={styles.loading}>Loading...</div>;
   }
 
-  // if (status === "unauthenticated") {
-  //   router.push("/");
-  // }
+  if (status === "unauthenticated") {
+    router.push("/login");
+  }
 
   const slugify = (str) =>
     str

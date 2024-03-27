@@ -26,7 +26,7 @@ const CategoryList = () => {
 
             </div>
 
-            Travel
+            Coding
           
           </Link>
           <Link href="/blog?cat = style" className={`${styles.category} ${styles.style}`}>
@@ -34,7 +34,7 @@ const CategoryList = () => {
 
             </div>
 
-            Travel
+            Competitions
           
           </Link>
           <Link href="/blog?cat = style" className={`${styles.category} ${styles.style}`}>
@@ -42,7 +42,7 @@ const CategoryList = () => {
 
             </div>
 
-            Travel
+            Programs
           
           </Link>
           <Link href="/blog?cat = style" className={`${styles.category} ${styles.style}`}>
@@ -50,7 +50,7 @@ const CategoryList = () => {
 
             </div>
 
-            Travel
+            Scholarships
           
           </Link>
           <Link href="/blog?cat = style" className={`${styles.category} ${styles.style}`}>
@@ -58,7 +58,7 @@ const CategoryList = () => {
 
             </div>
 
-            Travel
+            Others
           
           </Link>
         </div> 

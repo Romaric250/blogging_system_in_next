@@ -1,5 +1,6 @@
 
 import styles from "./feautures.module.css"
+import Image from "next/image"
 
 const Feautures = () => {
   return (
@@ -10,12 +11,14 @@ const Feautures = () => {
 
           <div className={styles.post}>
               <div className={styles.imgContainer}>
-                  img
+                  <Image src="/romaric.jpg" width={300} height={300}/>
                 
               </div>
               <div className={styles.textContainer}>
-                <h1 className={styles.postTitle}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, consequatur!</h1>
-                <p className={styles.postdescription}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi excepturi maxime repellendus aliquid rerum! Accusantium similique voluptatibus aperiam sit. Qui perspiciatis esse, ratione reiciendis facilis rerum tempora debitis mollitia modi quod autem dicta, voluptatibus quibusdam magnam dolorum quasi consequuntur placeat aspernatur dolores non exercitationem. Dolorum doloremque quod dolores provident et!</p>
+                <h1 className={styles.postTitle}>My ALXSE Software Engineering Journey</h1>
+                <p className={styles.postdescription}>
+In just one year, my journey as a software engineer, has been nothing short of transformative. With unwavering determination, I immersed myself in the world of coding, algorithms, and problem-solving. I embraced challenges, honing my skills through intense study and hands-on experience. Python, C,Typscript and JavaScript became my allies as I delved deeper into programming fundamentals.It has been a mind blowing opportunity to fall into this  life changing program
+"""</p>
                   
               <button className={styles.button}>Read more</button>
               </div>
